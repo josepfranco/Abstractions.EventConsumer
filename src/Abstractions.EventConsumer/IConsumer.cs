@@ -10,11 +10,16 @@ namespace Abstractions.EventConsumer
     public interface IConsumer : IDisposable
     {
         /// <summary>
-        /// Consumes an event from the event store from a specific topic
+        /// Called whenever an event is consumed from the event store
+        /// </summary>
+        event Action<Event> ConsumptionHandler;
+        
+        /// <summary>
+        /// Continuously consumes an event from the event store from a specific topic.
+        /// This method will be responsible for invoking the <see cref="ConsumptionHandler"/> event.
         /// </summary>
         /// <param name="topic">the topic to consume from</param>
         /// <exception cref="ConsumerException">if any consuming operation fails</exception>
-        /// <returns>the consumed event</returns>
-        Event Consume(string topic);
+        void Consume(string topic);
     }
 }
