@@ -1,0 +1,71 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Abstractions.EventConsumer
+  name: Abstractions.EventConsumer
+  href: api/Abstractions.EventConsumer.html
+  commentId: N:Abstractions.EventConsumer
+  fullName: Abstractions.EventConsumer
+  nameWithType: Abstractions.EventConsumer
+- uid: Abstractions.EventConsumer.Exceptions
+  name: Abstractions.EventConsumer.Exceptions
+  href: api/Abstractions.EventConsumer.Exceptions.html
+  commentId: N:Abstractions.EventConsumer.Exceptions
+  fullName: Abstractions.EventConsumer.Exceptions
+  nameWithType: Abstractions.EventConsumer.Exceptions
+- uid: Abstractions.EventConsumer.Exceptions.ConsumerException
+  name: ConsumerException
+  href: api/Abstractions.EventConsumer.Exceptions.ConsumerException.html
+  commentId: T:Abstractions.EventConsumer.Exceptions.ConsumerException
+  fullName: Abstractions.EventConsumer.Exceptions.ConsumerException
+  nameWithType: ConsumerException
+- uid: Abstractions.EventConsumer.Exceptions.ConsumerException.#ctor(System.Nullable{System.String})
+  name: ConsumerException(Nullable<String>)
+  href: api/Abstractions.EventConsumer.Exceptions.ConsumerException.html#Abstractions_EventConsumer_Exceptions_ConsumerException__ctor_System_Nullable_System_String__
+  commentId: M:Abstractions.EventConsumer.Exceptions.ConsumerException.#ctor(System.Nullable{System.String})
+  name.vb: ConsumerException(Nullable(Of String))
+  fullName: Abstractions.EventConsumer.Exceptions.ConsumerException.ConsumerException(System.Nullable<System.String>)
+  fullName.vb: Abstractions.EventConsumer.Exceptions.ConsumerException.ConsumerException(System.Nullable(Of System.String))
+  nameWithType: ConsumerException.ConsumerException(Nullable<String>)
+  nameWithType.vb: ConsumerException.ConsumerException(Nullable(Of String))
+- uid: Abstractions.EventConsumer.Exceptions.ConsumerException.#ctor(System.Nullable{System.String},System.Nullable{Exception})
+  name: ConsumerException(Nullable<String>, Nullable<Exception>)
+  href: api/Abstractions.EventConsumer.Exceptions.ConsumerException.html#Abstractions_EventConsumer_Exceptions_ConsumerException__ctor_System_Nullable_System_String__System_Nullable_Exception__
+  commentId: M:Abstractions.EventConsumer.Exceptions.ConsumerException.#ctor(System.Nullable{System.String},System.Nullable{Exception})
+  name.vb: ConsumerException(Nullable(Of String), Nullable(Of Exception))
+  fullName: Abstractions.EventConsumer.Exceptions.ConsumerException.ConsumerException(System.Nullable<System.String>, System.Nullable<Exception>)
+  fullName.vb: Abstractions.EventConsumer.Exceptions.ConsumerException.ConsumerException(System.Nullable(Of System.String), System.Nullable(Of Exception))
+  nameWithType: ConsumerException.ConsumerException(Nullable<String>, Nullable<Exception>)
+  nameWithType.vb: ConsumerException.ConsumerException(Nullable(Of String), Nullable(Of Exception))
+- uid: Abstractions.EventConsumer.Exceptions.ConsumerException.#ctor*
+  name: ConsumerException
+  href: api/Abstractions.EventConsumer.Exceptions.ConsumerException.html#Abstractions_EventConsumer_Exceptions_ConsumerException__ctor_
+  commentId: Overload:Abstractions.EventConsumer.Exceptions.ConsumerException.#ctor
+  isSpec: "True"
+  fullName: Abstractions.EventConsumer.Exceptions.ConsumerException.ConsumerException
+  nameWithType: ConsumerException.ConsumerException
+- uid: Abstractions.EventConsumer.IConsumer
+  name: IConsumer
+  href: api/Abstractions.EventConsumer.IConsumer.html
+  commentId: T:Abstractions.EventConsumer.IConsumer
+  fullName: Abstractions.EventConsumer.IConsumer
+  nameWithType: IConsumer
+- uid: Abstractions.EventConsumer.IConsumer.Consume(System.String)
+  name: Consume(String)
+  href: api/Abstractions.EventConsumer.IConsumer.html#Abstractions_EventConsumer_IConsumer_Consume_System_String_
+  commentId: M:Abstractions.EventConsumer.IConsumer.Consume(System.String)
+  fullName: Abstractions.EventConsumer.IConsumer.Consume(System.String)
+  nameWithType: IConsumer.Consume(String)
+- uid: Abstractions.EventConsumer.IConsumer.Consume*
+  name: Consume
+  href: api/Abstractions.EventConsumer.IConsumer.html#Abstractions_EventConsumer_IConsumer_Consume_
+  commentId: Overload:Abstractions.EventConsumer.IConsumer.Consume
+  isSpec: "True"
+  fullName: Abstractions.EventConsumer.IConsumer.Consume
+  nameWithType: IConsumer.Consume
+- uid: Abstractions.EventConsumer.IConsumer.ConsumptionHandler
+  name: ConsumptionHandler
+  href: api/Abstractions.EventConsumer.IConsumer.html#Abstractions_EventConsumer_IConsumer_ConsumptionHandler
+  commentId: E:Abstractions.EventConsumer.IConsumer.ConsumptionHandler
+  fullName: Abstractions.EventConsumer.IConsumer.ConsumptionHandler
+  nameWithType: IConsumer.ConsumptionHandler
